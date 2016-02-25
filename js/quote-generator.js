@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 		
 var generateQuote = function(event) {
-		event."onmouseup" {
+		event.onmouseup" {
 		var randomNum = Math.floor((Math.random() * 11));
 		switch(randomNum) {
 			case 0:
