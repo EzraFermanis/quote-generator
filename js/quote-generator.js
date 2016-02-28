@@ -16,15 +16,13 @@ $(document).ready(function() {
 				// console.log("event is working");
 				var randomNum = Math.floor((Math.random() * 3));
 				console.log(quotes[randomNum]);
-						document.getElementById("quote").innerHTML = quotes[randomNum];
-
-				}
-				
+					document.getElementById("quotes").innerHTML = quotes[randomNum];
+				$(this).attr("href", 'https://twitter.com/intent/tweet?text=%20Stressed%20is%20dessert%20spelt%20backwards.')
 		});
 	}
-
+	
 	generateQuote();
-
+	
 });
 
 

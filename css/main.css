@@ -1,0 +1,19 @@
+body { 
+  background-image: url("../images/catwallpaper.jpg");
+ background-repeat:no-repeat;
+
+background-position:center;
+}
+
+#quotes {
+	background-color: white;
+	opacity: 0.4;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+
+
+	
+
+}
