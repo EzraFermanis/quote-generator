@@ -16,13 +16,9 @@ $(document).ready(function() {
 				// console.log("event is working");
 				var randomNum = Math.floor((Math.random() * 3));
 				console.log(quotes[randomNum]);
-						
-					// else if (randomNum === 1) {
-					// 		console.log(quotes[1]);
-					// 	}
-					// else	{
-					// 		console.log(quotes[2]);
-					// 	}
+						document.getElementById("quote").innerHTML = quotes[randomNum];
+
+				}
 				
 		});
 	}
